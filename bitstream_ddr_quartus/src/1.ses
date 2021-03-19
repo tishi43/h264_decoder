@@ -1,0 +1,46 @@
+@Debussy.exe rc file Version 1.0
+[KeyNote]
+Line1 = invoke directory: D:\work\sell\testbench
+Line2 = command line: D:\work\sell\testbench\bitstream_tb.v D:\work\sell\testbench\ext_ram_32.v D:\work\sell\bitstream_ddr_quartus\src\bitstream_cont
+Line3 = current trace scope: bitstream_tb
+Line4 = memo:
+[hb]
+viewport = 0 0 1366 738 368 455 196 1354
+activeNode = "bitstream_tb"
+interactiveMode = False
+viewType = Source
+simulatorMode = False
+sourceBeginLine = 10
+baMode = False
+srcLineNum = True
+syncSignal = False
+traceMode = Hierarchical
+showTraceInSchema = True
+paMode = False
+traceCrossHier = True
+traceIncTopPort = False
+leadingZero = False
+showSubprog = True
+Scope1 = "bitstream_tb"
+sdfCheckUndef = FALSE
+[imp.design1]
+dbEnum =  oh
+invokeDir = D:\work\sell\testbench
+design = DebussyLib
+hostCommand = hostCommand D:\work\sell\testbench\bitstream_tb.v D:\work\sell\testbench\ext_ram_32.v D:\work\sell\bitstream_ddr_quartus\src\bitstream_controller.v D:\work\sell\bitstream_ddr_quartus\src\bitstream_ena_gen.v D:\work\sell\bitstream_ddr_quartus\src\bitstream_\
+fifo.v D:\work\sell\bitstream_ddr_quartus\src\bitstream_test.v D:\work\sell\bitstream_ddr_quartus\src\cavlc_fsm.v D:\work\sell\bitstream_ddr_quartus\src\cavlc_len_gen.v D:\work\sell\bitstream_ddr_quartus\src\cavlc_read_levels.v D:\work\sell\bitstream_ddr_q\
+uartus\src\cavlc_read_run_befores.v D:\work\sell\bitstream_ddr_quartus\src\cavlc_read_total_coeffs.v D:\work\sell\bitstream_ddr_quartus\src\cavlc_read_total_zeros.v D:\work\sell\bitstream_ddr_quartus\src\cavlc_top.v D:\work\sell\bitstream_ddr_quartus\src\d\
+c_fifo.v D:\work\sell\bitstream_ddr_quartus\src\dc_fifo_async_read.v D:\work\sell\bitstream_ddr_quartus\src\decode_stream.v D:\work\sell\bitstream_ddr_quartus\src\defines.v D:\work\sell\bitstream_ddr_quartus\src\ext_mem_hub.v D:\work\sell\bitstream_ddr_qua\
+rtus\src\ext_mem_writer.v D:\work\sell\bitstream_ddr_quartus\src\get_mvp.v D:\work\sell\bitstream_ddr_quartus\src\inter_pred_calc.v D:\work\sell\bitstream_ddr_quartus\src\inter_pred_fsm.v D:\work\sell\bitstream_ddr_quartus\src\inter_pred_load.v D:\work\sel\
+l\bitstream_ddr_quartus\src\inter_pred_top.v D:\work\sell\bitstream_ddr_quartus\src\intra4x4_pred_mode_decoding.v D:\work\sell\bitstream_ddr_quartus\src\intra_pred_fsm.v D:\work\sell\bitstream_ddr_quartus\src\intra_pred_PE.v D:\work\sell\bitstream_ddr_quar\
+tus\src\intra_pred_precalc.v D:\work\sell\bitstream_ddr_quartus\src\intra_pred_regs.v D:\work\sell\bitstream_ddr_quartus\src\intra_pred_top.v D:\work\sell\bitstream_ddr_quartus\src\nC_decoding.v D:\work\sell\bitstream_ddr_quartus\src\play_pause.v D:\work\s\
+ell\bitstream_ddr_quartus\src\pps.v D:\work\sell\bitstream_ddr_quartus\src\ram.v D:\work\sell\bitstream_ddr_quartus\src\rbsp_buffer.v D:\work\sell\bitstream_ddr_quartus\src\read_bits.v D:\work\sell\bitstream_ddr_quartus\src\read_exp_golomb.v D:\work\sell\b\
+itstream_ddr_quartus\src\read_nalu.v D:\work\sell\bitstream_ddr_quartus\src\residual_ctrl.v D:\work\sell\bitstream_ddr_quartus\src\residual_top.v D:\work\sell\bitstream_ddr_quartus\src\sdrc_buffer.v D:\work\sell\bitstream_ddr_quartus\src\sdrc_buffer_ctrl.v\
+ D:\work\sell\bitstream_ddr_quartus\src\sdrc_display.v D:\work\sell\bitstream_ddr_quartus\src\sdrc_display_ctrl.v D:\work\sell\bitstream_ddr_quartus\src\slice_data.v D:\work\sell\bitstream_ddr_quartus\src\slice_header.v D:\work\sell\bitstream_ddr_quartus\s\
+rc\sps.v D:\work\sell\bitstream_ddr_quartus\src\sum.v D:\work\sell\bitstream_ddr_quartus\src\transform_butterfly.v D:\work\sell\bitstream_ddr_quartus\src\transform_fsm.v D:\work\sell\bitstream_ddr_quartus\src\transform_inverse_quant.v D:\work\sell\bitstrea\
+m_ddr_quartus\src\transform_inverse_zigzag.v D:\work\sell\bitstream_ddr_quartus\src\transform_regs.v D:\work\sell\bitstream_ddr_quartus\src\transform_top.v D:\work\sell\bitstream_ddr_quartus\src\vga.v D:\work\sell\bitstream_ddr_quartus\src\yuv2rgb.v -2001
+[mdaWindow]
+count = 0
+[memoryWindow]
+count = 0
+Format = 

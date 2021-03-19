@@ -1,0 +1,1235 @@
+D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/yuv2rgb.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/yuv2rgb.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module yuv2rgb
+
+Top level modules:
+	yuv2rgb
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/alt_ddrx_ddr2_odt_gen.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/alt_ddrx_ddr2_odt_gen.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module alt_ddrx_ddr2_odt_gen
+
+Top level modules:
+	alt_ddrx_ddr2_odt_gen
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/alt_ddrx_controller.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/alt_ddrx_controller.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module alt_ddrx_controller
+
+Top level modules:
+	alt_ddrx_controller
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/pps.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/pps.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module pps
+
+Top level modules:
+	pps
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/residual_top.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/residual_top.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module residual_top
+
+Top level modules:
+	residual_top
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/cavlc_read_total_coeffs.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/cavlc_read_total_coeffs.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module cavlc_read_total_coeffs
+
+Top level modules:
+	cavlc_read_total_coeffs
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/sdrc_display_ctrl.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/sdrc_display_ctrl.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module sdrc_display_ctrl
+
+Top level modules:
+	sdrc_display_ctrl
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/alt_ddrx_bank_timer_info.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/alt_ddrx_bank_timer_info.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module alt_ddrx_bank_timer_info
+
+Top level modules:
+	alt_ddrx_bank_timer_info
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/defines.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/defines.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/altera/cmd_fifo.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/altera/cmd_fifo.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module cmd_fifo
+
+Top level modules:
+	cmd_fifo
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/alt_ddrx_timing_param.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/alt_ddrx_timing_param.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module alt_ddrx_timing_param
+
+Top level modules:
+	alt_ddrx_timing_param
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/alt_ddrx_clock_and_reset.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/alt_ddrx_clock_and_reset.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module alt_ddrx_clock_and_reset
+-- Compiling module alt_ddrx_reset_sync
+
+Top level modules:
+	alt_ddrx_clock_and_reset
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/alt_ddrx_cmd_queue.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/alt_ddrx_cmd_queue.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module alt_ddrx_cmd_queue
+
+Top level modules:
+	alt_ddrx_cmd_queue
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/slice_header.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/slice_header.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module slice_header
+
+Top level modules:
+	slice_header
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/intra_pred_regs.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/intra_pred_regs.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module intra_pred_regs
+
+Top level modules:
+	intra_pred_regs
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/ddr_phy.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/ddr_phy.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module ddr_phy
+
+Top level modules:
+	ddr_phy
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/alt_ddrx_afi_block.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/alt_ddrx_afi_block.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module alt_ddrx_afi_block
+
+Top level modules:
+	alt_ddrx_afi_block
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/altera/fifo_read_info.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/altera/fifo_read_info.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module fifo_read_info
+
+Top level modules:
+	fifo_read_info
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/altera_primitives.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/altera_primitives.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module global
+-- Compiling module carry
+-- Compiling module cascade
+-- Compiling module carry_sum
+-- Compiling module exp
+-- Compiling module soft
+-- Compiling module opndrn
+-- Compiling module row_global
+-- Compiling module TRI
+-- Compiling module lut_input
+-- Compiling module lut_output
+-- Compiling module latch
+-- Compiling module dlatch
+-- Compiling module prim_gdff
+-- Compiling module dff
+-- Compiling module dffe
+-- Compiling module dffea
+-- Compiling module dffeas
+-- Compiling module prim_gtff
+-- Compiling module tff
+-- Compiling module tffe
+-- Compiling module prim_gjkff
+-- Compiling module jkff
+-- Compiling module jkffe
+-- Compiling module prim_gsrff
+-- Compiling module srff
+-- Compiling module srffe
+-- Compiling module clklock
+-- Compiling module alt_inbuf
+-- Compiling module alt_outbuf
+-- Compiling module alt_outbuf_tri
+-- Compiling module alt_iobuf
+-- Compiling module alt_inbuf_diff
+-- Compiling module alt_outbuf_diff
+-- Compiling module alt_outbuf_tri_diff
+-- Compiling module alt_iobuf_diff
+-- Compiling module alt_bidir_diff
+-- Compiling module alt_bidir_buf
+-- Compiling UDP PRIM_GDFF_LOW
+-- Compiling UDP PRIM_GDFF_HIGH
+
+Top level modules:
+	global
+	carry
+	cascade
+	carry_sum
+	exp
+	soft
+	opndrn
+	row_global
+	TRI
+	lut_input
+	lut_output
+	latch
+	dlatch
+	dff
+	dffe
+	dffea
+	dffeas
+	tff
+	tffe
+	jkff
+	jkffe
+	srff
+	srffe
+	clklock
+	alt_inbuf
+	alt_outbuf
+	alt_outbuf_tri
+	alt_iobuf
+	alt_inbuf_diff
+	alt_outbuf_diff
+	alt_outbuf_tri_diff
+	alt_iobuf_diff
+	alt_bidir_diff
+	alt_bidir_buf
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/alt_mem_phy_defines.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/alt_mem_phy_defines.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/play_pause.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/play_pause.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module play_pause
+
+Top level modules:
+	play_pause
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/alt_ddrx_decoder_72.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/alt_ddrx_decoder_72.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module alt_ddrx_decoder_72_altecc_decoder_e8f
+-- Compiling module alt_ddrx_decoder_72
+
+Top level modules:
+	alt_ddrx_decoder_72
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/alt_ddrx_input_if.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/alt_ddrx_input_if.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module alt_ddrx_input_if
+
+Top level modules:
+	alt_ddrx_input_if
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/flash_model.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/flash_model.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module flash_model
+-- Compiling module BUFFER
+
+Top level modules:
+	flash_model
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/altera/stream_fifo.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/altera/stream_fifo.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module stream_fifo
+
+Top level modules:
+	stream_fifo
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/pll_sim.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/pll_sim.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module pll
+
+Top level modules:
+	pll
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/ext_ram.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/ext_ram.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module ext_ram
+
+Top level modules:
+	ext_ram
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/altera_avalon_half_rate_bridge.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/altera_avalon_half_rate_bridge.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module altera_avalon_half_rate_bridge
+
+Top level modules:
+	altera_avalon_half_rate_bridge
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/ddr.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/ddr.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module ddr
+
+Top level modules:
+	ddr
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/pll2.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/pll2.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module pll2
+
+Top level modules:
+	pll2
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/alt_ddrx_encoder_40.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/alt_ddrx_encoder_40.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module alt_ddrx_encoder_40_altecc_encoder_plb
+-- Compiling module alt_ddrx_encoder_40
+
+Top level modules:
+	alt_ddrx_encoder_40
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/alt_ddrx_rank_monitor.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/alt_ddrx_rank_monitor.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module alt_ddrx_rank_monitor
+
+Top level modules:
+	alt_ddrx_rank_monitor
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/ddr_ex_lfsr8.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/ddr_ex_lfsr8.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module ddr_ex_lfsr8
+
+Top level modules:
+	ddr_ex_lfsr8
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/alt_ddrx_bank_timer.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/alt_ddrx_bank_timer.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module alt_ddrx_bank_timer
+
+Top level modules:
+	alt_ddrx_bank_timer
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/alt_ddrx_ddr3_odt_gen.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/alt_ddrx_ddr3_odt_gen.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module alt_ddrx_ddr3_odt_gen
+
+Top level modules:
+	alt_ddrx_ddr3_odt_gen
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/ddr_controller_phy.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/ddr_controller_phy.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module ddr_controller_phy
+
+Top level modules:
+	ddr_controller_phy
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/intra_pred_PE.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/intra_pred_PE.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module intra_pred_PE
+-- Compiling module PE
+
+Top level modules:
+	intra_pred_PE
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/ddr_phy_alt_mem_phy_pll.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/ddr_phy_alt_mem_phy_pll.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module ddr_phy_alt_mem_phy_pll
+
+Top level modules:
+	ddr_phy_alt_mem_phy_pll
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/cycloneiv_atoms.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/cycloneiv_atoms.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling UDP CYCLONEIV_PRIM_DFFE
+-- Compiling UDP CYCLONEIV_PRIM_DFFEAS
+-- Compiling UDP CYCLONEIV_PRIM_DFFEAS_HIGH
+-- Compiling module cycloneiv_dffe
+-- Compiling module cycloneiv_latch
+-- Compiling module cycloneiv_mux21
+-- Compiling module cycloneiv_mux41
+-- Compiling module cycloneiv_and1
+-- Compiling module cycloneiv_and16
+-- Compiling module cycloneiv_bmux21
+-- Compiling module cycloneiv_b17mux21
+-- Compiling module cycloneiv_nmux21
+-- Compiling module cycloneiv_b5mux21
+-- Compiling module cycloneiv_routing_wire
+-- Compiling module cycloneiv_lcell_comb
+-- Compiling module cycloneiv_io_ibuf
+-- Compiling module cycloneiv_io_obuf
+-- Compiling module cycloneiv_ddio_out
+-- Compiling module cycloneiv_ddio_oe
+-- Compiling module cycloneiv_ff
+-- Compiling module cycloneiv_ram_pulse_generator
+-- Compiling module cycloneiv_ram_register
+-- Compiling module cycloneiv_ram_block
+-- Compiling module cycloneiv_mac_data_reg
+-- Compiling module cycloneiv_mac_sign_reg
+-- Compiling module cycloneiv_mac_mult_internal
+-- Compiling module cycloneiv_mac_mult
+-- Compiling module cycloneiv_mac_out
+-- Compiling module cycloneiv_io_pad
+-- Compiling module cycloneiv_ena_reg
+-- Compiling module cycloneiv_clkctrl
+-- Compiling module cycloneiv_pseudo_diff_out
+-- Compiling module cycloneiv_rublock
+-- Compiling module cycloneiv_termination_ctrl
+-- Compiling module cycloneiv_termination_rupdn
+-- Compiling module cycloneiv_termination
+-- Compiling module cycloneiv_jtag
+-- Compiling module cycloneiv_crcblock
+-- Compiling module cycloneiv_oscillator
+-- Compiling module cycloneiv_controller
+-- Compiling module cycloneiv_m_cntr
+-- Compiling module cycloneiv_n_cntr
+-- Compiling module cycloneiv_scale_cntr
+-- Compiling module cycloneiv_post_divider
+-- Compiling module cycloneiv_pll_reg
+-- Compiling module cycloneiv_pll
+
+Top level modules:
+	cycloneiv_dffe
+	cycloneiv_and1
+	cycloneiv_and16
+	cycloneiv_bmux21
+	cycloneiv_b17mux21
+	cycloneiv_nmux21
+	cycloneiv_b5mux21
+	cycloneiv_routing_wire
+	cycloneiv_lcell_comb
+	cycloneiv_io_ibuf
+	cycloneiv_io_obuf
+	cycloneiv_ddio_out
+	cycloneiv_ddio_oe
+	cycloneiv_ff
+	cycloneiv_ram_block
+	cycloneiv_mac_mult
+	cycloneiv_mac_out
+	cycloneiv_io_pad
+	cycloneiv_clkctrl
+	cycloneiv_pseudo_diff_out
+	cycloneiv_rublock
+	cycloneiv_termination
+	cycloneiv_jtag
+	cycloneiv_crcblock
+	cycloneiv_oscillator
+	cycloneiv_controller
+	cycloneiv_pll_reg
+	cycloneiv_pll
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/cavlc_read_levels.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/cavlc_read_levels.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module cavlc_read_levels
+
+Top level modules:
+	cavlc_read_levels
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/cavlc_fsm.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/cavlc_fsm.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module cavlc_fsm
+
+Top level modules:
+	cavlc_fsm
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/bitstream_fifo.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/bitstream_fifo.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module bitstream_fifo
+
+Top level modules:
+	bitstream_fifo
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/ddr_phy_alt_mem_phy.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/ddr_phy_alt_mem_phy.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module ddr_phy_alt_mem_phy
+-- Compiling module ddr_phy_alt_mem_phy_clk_reset
+-- Compiling module ddr_phy_alt_mem_phy_ac
+-- Compiling module ddr_phy_alt_mem_phy_addr_cmd
+-- Compiling module ddr_phy_alt_mem_phy_dp_io
+-- Compiling module ddr_phy_alt_mem_phy_read_dp
+-- Compiling module ddr_phy_alt_mem_phy_write_dp_fr
+-- Compiling module ddr_phy_alt_mem_phy_rdata_valid
+-- Compiling module ddr_phy_alt_mem_phy_mux
+-- Compiling module ddr_phy_alt_mem_phy_mimic
+-- Compiling module ddr_phy_alt_mem_phy_mimic_debug
+-- Compiling module ddr_phy_alt_mem_phy_reset_pipe
+
+Top level modules:
+	ddr_phy_alt_mem_phy
+	ddr_phy_alt_mem_phy_mux
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/rbsp_buffer.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/rbsp_buffer.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module rbsp_buffer
+
+Top level modules:
+	rbsp_buffer
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/sdrc_display.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/sdrc_display.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module sdrc_display
+
+Top level modules:
+	sdrc_display
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/slice_data.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/slice_data.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module slice_data
+
+Top level modules:
+	slice_data
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/inter_pred_fsm.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/inter_pred_fsm.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module inter_pred_fsm
+
+Top level modules:
+	inter_pred_fsm
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/testbench/ddr_example_top_tb.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/testbench/ddr_example_top_tb.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module ddr_example_top_tb
+
+Top level modules:
+	ddr_example_top_tb
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/bitstream_fifo_cfi_flash.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/bitstream_fifo_cfi_flash.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module bitstream_fifo_cfi_flash
+
+Top level modules:
+	bitstream_fifo_cfi_flash
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/transform_butterfly.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/transform_butterfly.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module transform_butterfly
+
+Top level modules:
+	transform_butterfly
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/altera/pixel_fifo.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/altera/pixel_fifo.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module pixel_fifo
+
+Top level modules:
+	pixel_fifo
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/alt_ddrx_decoder.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/alt_ddrx_decoder.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module alt_ddrx_decoder
+
+Top level modules:
+	alt_ddrx_decoder
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/intra_pred_fsm.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/intra_pred_fsm.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module intra_pred_fsm
+
+Top level modules:
+	intra_pred_fsm
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/nC_decoding.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/nC_decoding.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module nC_decoding
+
+Top level modules:
+	nC_decoding
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/ext_mem_hub.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/ext_mem_hub.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module ext_mem_hub
+
+Top level modules:
+	ext_mem_hub
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/altera/write_fifo.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/altera/write_fifo.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module write_fifo
+
+Top level modules:
+	write_fifo
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/alt_ddrx_encoder.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/alt_ddrx_encoder.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module alt_ddrx_encoder
+
+Top level modules:
+	alt_ddrx_encoder
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/alt_ddrx_decoder_40.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/alt_ddrx_decoder_40.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module alt_ddrx_decoder_40_altecc_decoder_c8f
+-- Compiling module alt_ddrx_decoder_40
+
+Top level modules:
+	alt_ddrx_decoder_40
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/intra4x4_pred_mode_decoding.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/intra4x4_pred_mode_decoding.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module intra4x4_pred_mode_decoding
+
+Top level modules:
+	intra4x4_pred_mode_decoding
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/intra_pred_precalc.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/intra_pred_precalc.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module intra_pred_precalc
+
+Top level modules:
+	intra_pred_precalc
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/transform_fsm.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/transform_fsm.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module transform_fsm
+
+Top level modules:
+	transform_fsm
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/alt_ddrx_bank_timer_wrapper.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/alt_ddrx_bank_timer_wrapper.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module alt_ddrx_bank_timer_wrapper
+
+Top level modules:
+	alt_ddrx_bank_timer_wrapper
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/ext_mem_writer.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/ext_mem_writer.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module ext_mem_writer
+
+Top level modules:
+	ext_mem_writer
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/inter_pred_load.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/inter_pred_load.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module inter_pred_load
+
+Top level modules:
+	inter_pred_load
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/alt_ddrx_state_machine.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/alt_ddrx_state_machine.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module alt_ddrx_state_machine
+
+Top level modules:
+	alt_ddrx_state_machine
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/alt_ddrx_cmd_gen.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/alt_ddrx_cmd_gen.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module alt_ddrx_cmd_gen
+
+Top level modules:
+	alt_ddrx_cmd_gen
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/ddr_alt_ddrx_controller_wrapper.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/ddr_alt_ddrx_controller_wrapper.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module ddr_alt_ddrx_controller_wrapper
+
+Top level modules:
+	ddr_alt_ddrx_controller_wrapper
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/ext_ram_32.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/ext_ram_32.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module ext_ram_32
+
+Top level modules:
+	ext_ram_32
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/sdrc_buffer.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/sdrc_buffer.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module sdrc_buffer
+
+Top level modules:
+	sdrc_buffer
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/alt_ddrx_addr_cmd.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/alt_ddrx_addr_cmd.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module alt_ddrx_addr_cmd
+
+Top level modules:
+	alt_ddrx_addr_cmd
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/inter_pred_calc.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/inter_pred_calc.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module inter_pred_calc
+-- Compiling module luma_filter
+-- Compiling module luma_filter2
+-- Compiling module chroma_filter
+
+Top level modules:
+	inter_pred_calc
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/sps.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/sps.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module sps
+
+Top level modules:
+	sps
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/transform_inverse_quant.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/transform_inverse_quant.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module transform_inverse_quant
+-- Compiling module mult_shifter
+
+Top level modules:
+	transform_inverse_quant
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/bitstream_tb.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/bitstream_tb.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module bitstream_tb
+
+Top level modules:
+	bitstream_tb
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/ram.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/ram.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module ram
+
+Top level modules:
+	ram
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/alt_ddrx_bypass.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/alt_ddrx_bypass.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module alt_ddrx_bypass
+
+Top level modules:
+	alt_ddrx_bypass
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/bitstream_test.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/bitstream_test.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module bitstream_test
+
+Top level modules:
+	bitstream_test
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/transform_inverse_zigzag.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/transform_inverse_zigzag.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module transform_inverse_zigzag
+
+Top level modules:
+	transform_inverse_zigzag
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/alt_ddrx_cache.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/alt_ddrx_cache.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module alt_ddrx_cache
+
+Top level modules:
+	alt_ddrx_cache
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/mt48lc8m16a2.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/mt48lc8m16a2.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module mt48lc8m16a2
+
+Top level modules:
+	mt48lc8m16a2
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/transform_regs.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/transform_regs.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module transform_DC_regs
+-- Compiling module transform_regs
+
+Top level modules:
+	transform_DC_regs
+	transform_regs
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/ddr_example_top.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/ddr_example_top.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module ddr_example_top
+
+Top level modules:
+	ddr_example_top
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/cavlc_read_run_befores.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/cavlc_read_run_befores.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module cavlc_read_run_befores
+
+Top level modules:
+	cavlc_read_run_befores
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/ddr_phy_alt_mem_phy_seq_wrapper.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/ddr_phy_alt_mem_phy_seq_wrapper.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module ddr_phy_alt_mem_phy_seq_wrapper
+
+Top level modules:
+	ddr_phy_alt_mem_phy_seq_wrapper
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/bitstream_test_cfi_flash.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/bitstream_test_cfi_flash.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module bitstream_test_cfi_flash
+
+Top level modules:
+	bitstream_test_cfi_flash
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/sdrc_buffer_ctrl.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/sdrc_buffer_ctrl.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module sdrc_buffer_ctrl
+
+Top level modules:
+	sdrc_buffer_ctrl
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/cycloneiii_atoms.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/cycloneiii_atoms.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling UDP CYCLONEIII_PRIM_DFFE
+-- Compiling UDP CYCLONEIII_PRIM_DFFEAS
+-- Compiling UDP CYCLONEIII_PRIM_DFFEAS_HIGH
+-- Compiling module cycloneiii_dffe
+-- Compiling module cycloneiii_latch
+-- Compiling module cycloneiii_mux21
+-- Compiling module cycloneiii_mux41
+-- Compiling module cycloneiii_and1
+-- Compiling module cycloneiii_and16
+-- Compiling module cycloneiii_bmux21
+-- Compiling module cycloneiii_b17mux21
+-- Compiling module cycloneiii_nmux21
+-- Compiling module cycloneiii_b5mux21
+-- Compiling module cycloneiii_routing_wire
+-- Compiling module cycloneiii_m_cntr
+-- Compiling module cycloneiii_n_cntr
+-- Compiling module cycloneiii_scale_cntr
+-- Compiling module cycloneiii_pll_reg
+-- Compiling module cycloneiii_pll
+-- Compiling module cycloneiii_lcell_comb
+-- Compiling module cycloneiii_ff
+-- Compiling module cycloneiii_ram_pulse_generator
+-- Compiling module cycloneiii_ram_register
+-- Compiling module cycloneiii_ram_block
+-- Compiling module cycloneiii_mac_data_reg
+-- Compiling module cycloneiii_mac_sign_reg
+-- Compiling module cycloneiii_mac_mult_internal
+-- Compiling module cycloneiii_mac_mult
+-- Compiling module cycloneiii_mac_out
+-- Compiling module cycloneiii_io_ibuf
+-- Compiling module cycloneiii_io_obuf
+-- Compiling module cycloneiii_ddio_out
+-- Compiling module cycloneiii_ddio_oe
+-- Compiling module cycloneiii_pseudo_diff_out
+-- Compiling module cycloneiii_io_pad
+-- Compiling module cycloneiii_ena_reg
+-- Compiling module cycloneiii_clkctrl
+-- Compiling module cycloneiii_rublock
+-- Compiling module cycloneiii_apfcontroller
+-- Compiling module cycloneiii_termination_ctrl
+-- Compiling module cycloneiii_termination_rupdn
+-- Compiling module cycloneiii_termination
+-- Compiling module cycloneiii_jtag
+-- Compiling module cycloneiii_crcblock
+-- Compiling module cycloneiii_oscillator
+
+Top level modules:
+	cycloneiii_dffe
+	cycloneiii_and1
+	cycloneiii_and16
+	cycloneiii_bmux21
+	cycloneiii_b17mux21
+	cycloneiii_nmux21
+	cycloneiii_b5mux21
+	cycloneiii_routing_wire
+	cycloneiii_pll_reg
+	cycloneiii_pll
+	cycloneiii_lcell_comb
+	cycloneiii_ff
+	cycloneiii_ram_block
+	cycloneiii_mac_mult
+	cycloneiii_mac_out
+	cycloneiii_io_ibuf
+	cycloneiii_io_obuf
+	cycloneiii_ddio_out
+	cycloneiii_ddio_oe
+	cycloneiii_pseudo_diff_out
+	cycloneiii_io_pad
+	cycloneiii_clkctrl
+	cycloneiii_rublock
+	cycloneiii_apfcontroller
+	cycloneiii_termination
+	cycloneiii_jtag
+	cycloneiii_crcblock
+	cycloneiii_oscillator
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/mt46v4m16.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/mt46v4m16.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module mt46v4m16
+
+Top level modules:
+	mt46v4m16
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/alt_ddrx_ecc.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/alt_ddrx_ecc.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module alt_ddrx_ecc
+
+Top level modules:
+	alt_ddrx_ecc
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/get_mvp.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/get_mvp.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module get_mvp
+
+Top level modules:
+	get_mvp
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/cavlc_top.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/cavlc_top.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module cavlc_top
+
+Top level modules:
+	cavlc_top
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/read_nalu.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/read_nalu.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module read_nalu
+
+Top level modules:
+	read_nalu
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/testbench/ddr_mem_model.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/testbench/ddr_mem_model.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module ddr_mem_model_ram_module
+-- Compiling module ddr_mem_model
+
+Top level modules:
+	ddr_mem_model
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/read_bits.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/read_bits.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module read_bits
+
+Top level modules:
+	read_bits
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/ddr_example_driver.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/ddr_example_driver.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module ddr_example_driver
+
+Top level modules:
+	ddr_example_driver
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/alt_ddrx_avalon_if.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/alt_ddrx_avalon_if.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module alt_ddrx_avalon_if
+
+Top level modules:
+	alt_ddrx_avalon_if
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/bitstream_controller.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/bitstream_controller.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module bitstream_controller
+
+Top level modules:
+	bitstream_controller
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/ext_ram_16.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/ext_ram_16.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module ext_ram_16
+
+Top level modules:
+	ext_ram_16
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/inter_pred_top.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/inter_pred_top.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module inter_pred_top
+
+Top level modules:
+	inter_pred_top
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/vga.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/vga.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module vga
+
+Top level modules:
+	vga
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/testbench/ddr_full_mem_model.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/testbench/ddr_full_mem_model.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module ddr_full_mem_model_ram_module
+-- Compiling module ddr_full_mem_model
+
+Top level modules:
+	ddr_full_mem_model
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/bitstream_ena_gen.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/bitstream_ena_gen.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module bitstream_ena_gen
+
+Top level modules:
+	bitstream_ena_gen
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/bitstream_test_tb.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/bitstream_test_tb.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module bitstream_test_tb
+
+Top level modules:
+	bitstream_test_tb
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/read_exp_golomb.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/read_exp_golomb.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module read_exp_golomb
+
+Top level modules:
+	read_exp_golomb
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/decode_stream.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/decode_stream.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module decode_stream
+
+Top level modules:
+	decode_stream
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/altera/read_fifo.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/altera/read_fifo.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module read_fifo
+
+Top level modules:
+	read_fifo
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/cavlc_len_gen.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/cavlc_len_gen.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module cavlc_len_gen
+
+Top level modules:
+	cavlc_len_gen
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/altera_mf.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/altera_mf.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module lcell
+-- Compiling module ALTERA_MF_MEMORY_INITIALIZATION
+-- Compiling module ALTERA_MF_HINT_EVALUATION
+-- Compiling module ALTERA_DEVICE_FAMILIES
+-- Compiling module dffp
+-- Compiling module pll_iobuf
+-- Compiling module stx_m_cntr
+-- Compiling module stx_n_cntr
+-- Compiling module stx_scale_cntr
+-- Compiling module MF_pll_reg
+-- Compiling module MF_stratix_pll
+-- Compiling module arm_m_cntr
+-- Compiling module arm_n_cntr
+-- Compiling module arm_scale_cntr
+-- Compiling module MF_stratixii_pll
+-- Compiling module ttn_m_cntr
+-- Compiling module ttn_n_cntr
+-- Compiling module ttn_scale_cntr
+-- Compiling module MF_stratixiii_pll
+-- Compiling module cda_m_cntr
+-- Compiling module cda_n_cntr
+-- Compiling module cda_scale_cntr
+-- Compiling module MF_cycloneiii_pll
+-- Compiling module MF_cycloneiiigl_m_cntr
+-- Compiling module MF_cycloneiiigl_n_cntr
+-- Compiling module MF_cycloneiiigl_scale_cntr
+-- Compiling module cycloneiiigl_post_divider
+-- Compiling module MF_cycloneiiigl_pll
+-- Compiling module altpll
+-- Compiling module altlvds_rx
+-- Compiling module stratix_lvds_rx
+-- Compiling module stratixgx_dpa_lvds_rx
+-- Compiling module stratixii_lvds_rx
+-- Compiling module flexible_lvds_rx
+-- Compiling module stratixiii_lvds_rx
+-- Compiling module stratixiii_lvds_rx_channel
+-- Compiling module stratixiii_lvds_rx_dpa
+-- Compiling module altlvds_tx
+-- Compiling module stratix_tx_outclk
+-- Compiling module stratixii_tx_outclk
+-- Compiling module flexible_lvds_tx
+-- Compiling module dcfifo_dffpipe
+-- Compiling module dcfifo_fefifo
+-- Compiling module dcfifo_async
+-- Compiling module dcfifo_sync
+-- Compiling module dcfifo_low_latency
+-- Compiling module dcfifo_mixed_widths
+-- Compiling module dcfifo
+-- Compiling module altaccumulate
+-- Compiling module altmult_accum
+-- Compiling module altmult_add
+-- Compiling module altfp_mult
+-- Compiling module altsqrt
+-- Compiling module altclklock
+-- Compiling module altddio_in
+-- Compiling module altddio_out
+-- Compiling module altddio_bidir
+-- Compiling module altdpram
+-- Compiling module altsyncram
+-- Compiling module alt3pram
+-- Compiling module parallel_add
+-- Compiling module scfifo
+-- Compiling module altshift_taps
+-- Compiling module a_graycounter
+-- Compiling module altsquare
+-- Compiling module altera_std_synchronizer
+-- Compiling module altera_std_synchronizer_bundle
+-- Compiling module alt_cal
+-- Compiling module alt_cal_mm
+-- Compiling module alt_cal_c3gxb
+-- Compiling module alt_aeq_s4
+-- Compiling module alt_eyemon
+-- Compiling module alt_dfe
+-- Compiling module signal_gen
+-- Compiling module jtag_tap_controller
+-- Compiling module dummy_hub
+-- Compiling module sld_virtual_jtag
+-- Compiling module sld_signaltap
+-- Compiling module altstratixii_oct
+-- Compiling module altparallel_flash_loader
+-- Compiling module altserial_flash_loader
+-- Compiling module altsource_probe
+
+Top level modules:
+	lcell
+	altpll
+	altlvds_rx
+	altlvds_tx
+	dcfifo
+	altaccumulate
+	altmult_accum
+	altmult_add
+	altfp_mult
+	altsqrt
+	altclklock
+	altddio_bidir
+	altdpram
+	alt3pram
+	parallel_add
+	scfifo
+	altshift_taps
+	a_graycounter
+	altsquare
+	altera_std_synchronizer_bundle
+	alt_cal
+	alt_cal_mm
+	alt_cal_c3gxb
+	alt_aeq_s4
+	alt_eyemon
+	alt_dfe
+	sld_virtual_jtag
+	sld_signaltap
+	altstratixii_oct
+	altparallel_flash_loader
+	altserial_flash_loader
+	altsource_probe
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/cavlc_read_total_zeros.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/cavlc_read_total_zeros.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module cavlc_read_total_zeros
+
+Top level modules:
+	cavlc_read_total_zeros
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/ddr_phy_alt_mem_phy_seq.vhd {2 {vcom -work work -2002 -explicit -vopt D:/work/bitstream_ddr_test/src/altera/ddr/ddr_phy_alt_mem_phy_seq.vhd
+Model Technology ModelSim SE vcom 10.0c Compiler 2011.07 Jul 21 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling package ddr_phy_alt_mem_phy_constants_pkg
+-- Compiling package ddr_phy_alt_mem_phy_record_pkg
+-- Compiling package body ddr_phy_alt_mem_phy_record_pkg
+-- Loading package ddr_phy_alt_mem_phy_record_pkg
+-- Compiling package ddr_phy_alt_mem_phy_addr_cmd_pkg
+-- Compiling package body ddr_phy_alt_mem_phy_addr_cmd_pkg
+-- Loading package ddr_phy_alt_mem_phy_addr_cmd_pkg
+-- Compiling package ddr_phy_alt_mem_phy_iram_addr_pkg
+-- Compiling package body ddr_phy_alt_mem_phy_iram_addr_pkg
+-- Loading package ddr_phy_alt_mem_phy_iram_addr_pkg
+-- Loading package ddr_phy_alt_mem_phy_record_pkg
+-- Loading package ddr_phy_alt_mem_phy_constants_pkg
+-- Compiling package ddr_phy_alt_mem_phy_regs_pkg
+-- Compiling package body ddr_phy_alt_mem_phy_regs_pkg
+-- Loading package ddr_phy_alt_mem_phy_regs_pkg
+-- Compiling entity ddr_phy_alt_mem_phy_mmi
+-- Loading package ddr_phy_alt_mem_phy_regs_pkg
+-- Loading package ddr_phy_alt_mem_phy_iram_addr_pkg
+-- Compiling architecture struct of ddr_phy_alt_mem_phy_mmi
+-- Loading package ddr_phy_alt_mem_phy_addr_cmd_pkg
+-- Compiling entity ddr_phy_alt_mem_phy_admin
+-- Compiling architecture struct of ddr_phy_alt_mem_phy_admin
+-- Compiling entity ddr_phy_alt_mem_phy_iram_ram
+-- Compiling architecture struct of ddr_phy_alt_mem_phy_iram_ram
+-- Loading entity ddr_phy_alt_mem_phy_iram_ram
+-- Compiling entity ddr_phy_alt_mem_phy_iram
+-- Compiling architecture struct of ddr_phy_alt_mem_phy_iram
+-- Compiling entity ddr_phy_alt_mem_phy_dgrb
+-- Compiling architecture struct of ddr_phy_alt_mem_phy_dgrb
+-- Compiling entity ddr_phy_alt_mem_phy_dgwb
+-- Compiling architecture rtl of ddr_phy_alt_mem_phy_dgwb
+-- Compiling entity ddr_phy_alt_mem_phy_ctrl
+-- Compiling architecture struct of ddr_phy_alt_mem_phy_ctrl
+-- Compiling entity ddr_phy_alt_mem_phy_seq
+-- Loading entity ddr_phy_alt_mem_phy_admin
+-- Loading entity ddr_phy_alt_mem_phy_mmi
+-- Loading entity ddr_phy_alt_mem_phy_iram
+-- Loading entity ddr_phy_alt_mem_phy_dgrb
+-- Loading entity ddr_phy_alt_mem_phy_dgwb
+-- Loading entity ddr_phy_alt_mem_phy_ctrl
+-- Compiling architecture struct of ddr_phy_alt_mem_phy_seq
+** Warning: [5] D:/work/bitstream_ddr_test/src/altera/ddr/ddr_phy_alt_mem_phy_seq.vhd(12941): Nonresolved signal 'mmi_ctrl' may have multiple sources.
+  Drivers:
+    D:/work/bitstream_ddr_test/src/altera/ddr/ddr_phy_alt_mem_phy_seq.vhd(13207):Statement mmi
+    D:/work/bitstream_ddr_test/src/altera/ddr/ddr_phy_alt_mem_phy_seq.vhd(13358):Process line__13358
+       Driven at:
+          D:/work/bitstream_ddr_test/src/altera/ddr/ddr_phy_alt_mem_phy_seq.vhd(13364)
+** Warning: [5] D:/work/bitstream_ddr_test/src/altera/ddr/ddr_phy_alt_mem_phy_seq.vhd(12974): Nonresolved signal 'parameterisation_rec' may have multiple sources.
+  Drivers:
+    D:/work/bitstream_ddr_test/src/altera/ddr/ddr_phy_alt_mem_phy_seq.vhd(13207):Statement mmi
+    D:/work/bitstream_ddr_test/src/altera/ddr/ddr_phy_alt_mem_phy_seq.vhd(13358):Process line__13358
+       Driven at:
+          D:/work/bitstream_ddr_test/src/altera/ddr/ddr_phy_alt_mem_phy_seq.vhd(13362)
+** Warning: [5] D:/work/bitstream_ddr_test/src/altera/ddr/ddr_phy_alt_mem_phy_seq.vhd(12987): Nonresolved signal 'mmi_pll' may have multiple sources.
+  Drivers:
+    D:/work/bitstream_ddr_test/src/altera/ddr/ddr_phy_alt_mem_phy_seq.vhd(13207):Statement mmi
+    D:/work/bitstream_ddr_test/src/altera/ddr/ddr_phy_alt_mem_phy_seq.vhd(13358):Process line__13358
+       Driven at:
+          D:/work/bitstream_ddr_test/src/altera/ddr/ddr_phy_alt_mem_phy_seq.vhd(13363)
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/intra_pred_top.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/intra_pred_top.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module intra_pred_top
+
+Top level modules:
+	intra_pred_top
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/alt_ddrx_wdata_fifo.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/alt_ddrx_wdata_fifo.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module alt_ddrx_wdata_fifo
+
+Top level modules:
+	alt_ddrx_wdata_fifo
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/residual_ctrl.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/residual_ctrl.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module residual_ctrl
+
+Top level modules:
+	residual_ctrl
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/sum.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/sum.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module sum
+-- Compiling module sum_PE
+
+Top level modules:
+	sum
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/transform_top.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/bitstream/transform_top.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module transform_top
+-- Compiling module transform_prepare_butterfly
+-- Compiling module transform_prepare_IQ
+
+Top level modules:
+	transform_top
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/alt_ddrx_odt_gen.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/alt_ddrx_odt_gen.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module alt_ddrx_odt_gen
+
+Top level modules:
+	alt_ddrx_odt_gen
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/alt_ddrx_encoder_72.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/alt_ddrx_encoder_72.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module alt_ddrx_encoder_72_altecc_encoder_rlb
+-- Compiling module alt_ddrx_encoder_72
+
+Top level modules:
+	alt_ddrx_encoder_72
+
+} {} {}} D:/work/bitstream_ddr_test/src/altera/ddr/alt_ddrx_csr.v {1 {vlog -work work -vopt -nocovercells D:/work/bitstream_ddr_test/src/altera/ddr/alt_ddrx_csr.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module alt_ddrx_csr
+
+Top level modules:
+	alt_ddrx_csr
+
+} {} {}}

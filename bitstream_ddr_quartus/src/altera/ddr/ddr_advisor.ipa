@@ -1,0 +1,1924 @@
+<optimization_record_list>
+<!-- DDR_INST -->
+<optimization_record>
+<recommendation_key>
+DDR_INST
+</recommendation_key>
+<recommendation>
+ddr
+</recommendation>
+<recommendation_description>
+Follow the recommendations to configure your core. You can start by double clicking on Add Constraints.
+</recommendation_description>
+<description>
+MegaCore variation
+</description>
+<more_info_link>
+NA
+</more_info_link>
+<effect_list>
+	<fmax_effect>
+	NA
+	</fmax_effect>
+	<resource_effect>
+	NA
+	</resource_effect>
+	<compilation_effect>
+	NA
+	</compilation_effect>
+</effect_list>
+<action>
+	<action_description>
+	NA
+	</action_description>
+	<action_link>
+	NA
+	</action_link>
+	<acf_variable_list>
+		<acf_variable name="NA">
+		
+		</acf_variable>
+	</acf_variable_list>
+</action>
+<device_family_list>
+	<device_family exclude="">
+	ALL
+	</device_family>
+</device_family_list>
+<conditions>
+</conditions>
+<image_path>
+
+</image_path>
+<parent_list>
+	<parent priority="100">
+	DDR
+	</parent>
+</parent_list>
+<logic_algorithm>
+NA
+</logic_algorithm>
+<tcl_script button_name="" quartus_exe="">
+</tcl_script>
+</optimization_record>
+
+<!-- INFO -->
+<!-- DDR_INST\10 -->
+<optimization_record>
+<recommendation_key>
+INFO
+</recommendation_key>
+<recommendation>
+Information
+</recommendation>
+<recommendation_description>
+The following recommendations provide a flow for your DDR SDRAM memory interface design.
+</recommendation_description>
+<description>
+The following guidelines with the walkthrough provide an easy to follow flow for designing a DDR SDRAM memory interface with Stratix IV devices.
+The walkthrough provides some recommended settings in order to simplify the design, including termination scheme and drive strength settings.
+
+This walkthrough can also be found in AN:435 Design Guidelines for Implementing DDR-DDR2 SDRAM Interfaces in Stratix III Devices.
+</description>
+<more_info_link>
+http://www.altera.com/literature/an/an435.pdf
+</more_info_link>
+<effect_list>
+	<fmax_effect>
+	NA
+	</fmax_effect>
+	<resource_effect>
+	NA
+	</resource_effect>
+	<compilation_effect>
+	NA
+	</compilation_effect>
+</effect_list>
+<action>
+	<action_description>
+	Follow the steps outlined in this IP Advisor to design a DDR SDRAM memory interface. Click on Add Constraints in the left panel.
+	</action_description>
+	<action_link>
+	NA
+	</action_link>
+	<acf_variable_list>
+		<acf_variable name="NA">
+		
+		</acf_variable>
+	</acf_variable_list>
+</action>
+<device_family_list>
+	<device_family exclude="">
+	ALL
+	</device_family>
+</device_family_list>
+<conditions>
+</conditions>
+<image_path>
+
+</image_path>
+<parent_list>
+	<parent priority="10">
+	DDR_INST
+	</parent>
+</parent_list>
+<logic_algorithm>
+ALWAYS
+</logic_algorithm>
+<tcl_script button_name="" quartus_exe="">
+
+</tcl_script>
+</optimization_record>
+
+
+<!-- PROJECT_PLANNING -->
+<!-- DDR_INST\30 -->
+<optimization_record>
+<recommendation_key>
+PROJECT_PLANNING
+</recommendation_key>
+<recommendation>
+Resource Planning
+</recommendation>
+<recommendation_description>
+Follow the following recommendations to plan your signals and device selection.
+</recommendation_description>
+<description>
+NA
+</description>
+<more_info_link>
+NA
+</more_info_link>
+<effect_list>
+	<fmax_effect>
+	NA
+	</fmax_effect>
+	<resource_effect>
+	NA
+	</resource_effect>
+	<compilation_effect>
+	NA
+	</compilation_effect>
+</effect_list>
+<action>
+	<action_description>
+	NA
+	</action_description>
+	<action_link>
+	NA
+	</action_link>
+	<acf_variable_list>
+		<acf_variable name="NA">
+		</acf_variable>
+	</acf_variable_list>
+</action>
+<device_family_list>
+	<device_family exclude="">
+	ALL
+	</device_family>
+</device_family_list>
+<conditions>
+</conditions>
+<image_path>
+
+</image_path>
+<parent_list>
+	<parent priority="30">
+	DDR_INST
+	</parent>
+</parent_list>
+<logic_algorithm>
+ALWAYS
+</logic_algorithm>
+<tcl_script button_name="" quartus_exe="">
+
+</tcl_script>
+</optimization_record>
+
+
+
+<!-- PLAN_RESOURCE -->
+<!-- DDR_INST\PROJECT_PLANNING\20 -->
+<optimization_record>
+<recommendation_key>
+PLAN_RESOURCE
+</recommendation_key>
+<recommendation>
+Plan Resources
+</recommendation>
+<recommendation_description>
+Place your memory interface pins according to Altera's recommendations described below.
+</recommendation_description>
+<description>
+Altera recommends the following pin placements:  
+Note that if on-chip termination (OCT) is used, ensure that the Rup/Rdn pins are assigned correctly. If the used Rup/Rdn pins are in a x4 DQS/DQ group, you cannot use the remaining unused pins of that DQS/DQ group for your memory interface. You can still use the x16/x18 and x32/x36 groups containing that x4 group. Note that there are restrictions on using x8/x9 groups that include these x4 groups.
+</description>
+<more_info_link>
+NA
+</more_info_link>
+<effect_list>
+	<fmax_effect>
+	NA
+	</fmax_effect>
+	<resource_effect>
+	NA
+	</resource_effect>
+	<compilation_effect>
+	NA
+	</compilation_effect>
+</effect_list>
+<action>
+	<action_description>
+Use the information given in the table and assign pin locations in the next step - Pin Planning.
+</action_description>
+	<action_link>
+	</action_link>
+	<acf_variable_list>
+		<acf_variable name="NA">
+		</acf_variable>
+	</acf_variable_list>
+</action>
+<device_family_list>
+	<device_family exclude="">
+	ALL
+	</device_family>
+</device_family_list>
+<conditions>
+</conditions>
+<image_path>ddrpins.bmp
+</image_path>
+<parent_list>
+	<parent priority="20">
+	PROJECT_PLANNING
+	</parent>
+</parent_list>
+<logic_algorithm>
+ALWAYS
+</logic_algorithm>
+<tcl_script button_name="" quartus_exe="">
+
+</tcl_script>
+</optimization_record>
+<!-- PIN_PLAN -->
+<!-- DDR_INST\PROJECT_PLANNING\20 -->
+<optimization_record>
+<recommendation_key>
+PIN_PLAN
+</recommendation_key>
+<recommendation>
+Pin Planning
+</recommendation>
+<recommendation_description>
+Place your memory interface pins according to Altera's recommendations shown below.
+</recommendation_description>
+<description>
+Assign each DQS pin in your design to the required DQS pin in the Pin Planner. The Quartus II Fitter then automatically places the respective DQ signals onto suitable DQ pins within each group.
+To see DQS groups in Pin Planner, right click, select Show DQ/DQS Pins, and click In x8/x9 Mode. Pin Planner shows each DQS group in a different color and with a different legend: S  DQS pin, Sbar  DQSn pin and Q = DQ pin see figure below
+Most DDR SDRAM devices operate in x8/x9 mode, however as some DDR SDRAM devices operate in x4 mode, refer to your specific memory device datasheet.
+Note that DQ group order and DQ pin order within each group is not important. However, you must place DQ pins in the same group as their respective strobe pin.
+To identify differential I/O pairs, right-click in Pin Planner and select Show Differential Pin Pair Connections. Pin pairs show a red line between each pin pair.
+Note that you must place mem_clk[0] and mem_clk_n[0] on a DIFFIO_RX pin pair, if your design uses differential DQS signaling. 
+</description>
+<more_info_link>
+NA
+</more_info_link>
+<effect_list>
+	<fmax_effect>
+	NA
+	</fmax_effect>
+	<resource_effect>
+	NA
+	</resource_effect>
+	<compilation_effect>
+	NA
+	</compilation_effect>
+</effect_list>
+<action>
+	<action_description>
+To assign pin locations, launch the Pin Planner and follow these steps:
+1) Assign DQ and DQS pins.
+   Select the DQ mode to match the DQ group width (number of DQ pins/number of DQS pins) of your memory device. DQ mode is not related to the memory interface width.
+2) Place DM pins within their respective DQ group.
+3) Place address and control command pins on any spare I/O pins ideally within the same bank or side of the device as the mem_clk pins.
+4) Ensure you place mem_clk pins on differential I/O pairs for the CK/CK# pin pair. 
+5) Place the clock_source pin on a dedicated PLL clock input pin with a direct connection to the SDRAM controller PLL and DLL pair, usually on the same side of the device as your memory interface. 
+* This recommendation reduces PLL jitter, saves a global clock resource, and eases timing and fitter effort.
+6) Place the global_reset_n pin (like any high fan-out signal) on a dedicated clock pin.
+	</action_description>
+	<action_link>
+	PINPLANNER
+	</action_link>
+	<acf_variable_list>
+		<acf_variable name="NA">
+		</acf_variable>
+	</acf_variable_list>
+</action>
+<device_family_list>
+	<device_family exclude="">
+	ALL
+	</device_family>
+</device_family_list>
+<conditions>
+</conditions>
+<image_path>ddrpinplanner.bmp
+</image_path>
+<parent_list>
+	<parent priority="30">
+	PROJECT_PLANNING
+	</parent>
+</parent_list>
+<logic_algorithm>
+ALWAYS
+</logic_algorithm>
+<tcl_script button_name="" quartus_exe="">
+
+</tcl_script>
+</optimization_record>
+<!-- VIRTUAL_PIN -->
+<!-- DDR_INST\PROJECT_PLANNING\40 -->
+<optimization_record>
+<recommendation_key>
+VIRTUAL_PIN
+</recommendation_key>
+<recommendation>
+Virtual Pins
+</recommendation>
+<recommendation_description>
+Set non memory interface pins with no board locations to virtual pins.
+</recommendation_description>
+<description>
+A virtual pin is an I/O element that is temporarily mapped to a logic element and not to a pin during compilation.
+
+The example top-level design, that is auto generated by the high performance controller, includes an example driver to stimulate the interface. This example driver is not part of the SDRAM high performance controller IP, but allows easy testing of the IP.
+The example driver outputs several test signals to indicate its operation and the status of the stimulated memory interface. 
+These signals are pnf, pnf_per_byte, and test_complete. You should take such signals to either a debug header or set the signals to virtual pin using the Quartus II Assignment Editor.
+When using the example driver for testing, do not remove these signals from the top-level signal list. Otherwise the Quartus II software optimizes the driver away, and the example driver fails.
+Note that the memory interface pins (DQ, DQS, DM, CK, CK#, address and command) cannot be assigned as virtual pins.
+</description>
+<more_info_link>
+NA
+</more_info_link>
+<effect_list>
+	<fmax_effect>
+	NA
+	</fmax_effect>
+	<resource_effect>
+	NA
+	</resource_effect>
+	<compilation_effect>
+	NA
+	</compilation_effect>
+</effect_list>
+<action>
+	<action_description>
+Launch Assignment Editor and follow the steps below to assign virtual pins:
+1) Select the pin
+2) In the Assignment Name column, click on the drop down menu, scroll down
+3) Select Virtual Pin
+</action_description>
+	<action_link>
+	AE
+	</action_link>
+	<acf_variable_list>
+		<acf_variable name="NA">
+		</acf_variable>
+	</acf_variable_list>
+</action>
+<device_family_list>
+	<device_family exclude="">
+	ALL
+	</device_family>
+</device_family_list>
+<conditions>
+</conditions>
+<image_path>ddrvirtualpins.bmp
+</image_path>
+<parent_list>
+	<parent priority="40">
+	PROJECT_PLANNING
+	</parent>
+</parent_list>
+<logic_algorithm>
+ALWAYS
+</logic_algorithm>
+<tcl_script button_name="" quartus_exe="">
+
+</tcl_script>
+</optimization_record>
+
+<!-- IO_TIMING -->
+<!-- DDR_INST\40 -->
+<optimization_record>
+<recommendation_key>
+IO_TIMING
+</recommendation_key>
+<recommendation>
+Advanced I/O Timing
+</recommendation>
+<recommendation_description>
+As part of I/O planning, especially with high-speed designs, you should take board-level signal integrity and timing into account. When adding an FPGA device with high-speed interfaces to a board design, the quality of the signal at the far end of the board route, and the propagation delay in getting there, are vital for proper system operation.
+The advanced I/O timing option is turned on by default for Stratix IV devices.
+Start by double clicking on I/O Timing.
+</recommendation_description>
+<description>
+NA
+</description>
+<more_info_link>
+NA
+</more_info_link>
+<effect_list>
+	<fmax_effect>
+	NA
+	</fmax_effect>
+	<resource_effect>
+	NA
+	</resource_effect>
+	<compilation_effect>
+	NA
+	</compilation_effect>
+</effect_list>
+<action>
+	<action_description>
+	NA
+	</action_description>
+	<action_link>
+	NA
+	</action_link>
+	<acf_variable_list>
+		<acf_variable name="NA">
+		</acf_variable>
+	</acf_variable_list>
+</action>
+<device_family_list>
+	<device_family exclude="">
+	ALL
+	</device_family>
+</device_family_list>
+<conditions>
+</conditions>
+<image_path>
+
+</image_path>
+<parent_list>
+	<parent priority="40">
+	DDR_INST
+	</parent>
+</parent_list>
+<logic_algorithm>
+ALWAYS
+</logic_algorithm>
+<tcl_script button_name="" quartus_exe="">
+
+</tcl_script>
+</optimization_record>
+
+<!-- TPD-->
+<!-- DDR3_INST\IO_TIMING\10 -->
+<optimization_record>
+<recommendation_key>
+AIOT
+</recommendation_key>
+<recommendation>
+I/O Timing
+</recommendation>
+<recommendation_description>
+To ensure that IO timing performance is correctly modeled in Quartus II, select the I/O timing end point to be either near end or far end.
+ 
+</recommendation_description>
+<description>
+By default, Advanced I/O Timing defines output I/O timing to end at the FPGA pin, the near end of the board trace.  
+The I/O Timing Endpoint option allows you to specify whether the Fitter calculates I/O timing to the near or far end of the board trace. 
+
+* Altera recommends to set I/O timing to "Near End" and enter typical board trace models if you have SI Analysis tools to ascertain accurate timing information. The timing information obtained from SI analysis can be manually added to the timing analysis scripts.
+</description>
+<more_info_link>
+NA
+</more_info_link>
+<effect_list>
+	<fmax_effect>
+	NA
+	</fmax_effect>
+	<resource_effect>
+	NA
+	</resource_effect>
+	<compilation_effect>
+	NA
+	</compilation_effect>
+</effect_list>
+<action>
+	<action_description>
+1) In Assignments drop down menu, select Device.
+2) Click on Device and Pin Options as shown above.
+3) In Device and Pin Options window, click on I/O Timing.
+4a) Select Near End
+5a) Move to the next 2 steps to enter your board trace values and additional trace delays as instructed.
+4b) Select Far End (If you have accurate board trace values for every net and do not have SI Analysis tools to obtain the timing information in a more accurate manner.)
+5b) Move to the next step to enter your board trace values.
+	</action_description>
+	<action_link>
+	NA
+	</action_link>
+	<acf_variable_list>
+		<acf_variable name="NA">
+		</acf_variable>
+	</acf_variable_list>
+</action>
+<device_family_list>
+	<device_family exclude="">
+	ALL
+	</device_family>
+</device_family_list>
+<conditions>
+</conditions>
+<image_path>IOTiming.bmp
+</image_path>
+<parent_list>
+	<parent priority="10">
+	IO_TIMING
+	</parent>
+</parent_list>
+<logic_algorithm>
+ALWAYS
+</logic_algorithm>
+<tcl_script button_name="" quartus_exe="">
+
+</tcl_script>
+</optimization_record>
+<!-- BOARD_TRACE_MODEL -->
+<!-- DDR2_INST\PROJECT_PLANNING\30 -->
+<optimization_record>
+<recommendation_key>
+BOARD_TRACE_MODEL
+</recommendation_key>
+<recommendation>
+Board Trace Model Assignment
+</recommendation>
+<recommendation_description>
+To ensure that IO timing performance is correctly modeled in Quartus II, it is necessary to complete the Board Trace Model definition for each signal. More precise board trace models result in more accurate TimeQuest timing analysis.
+</recommendation_description>
+<description>
+Board trace models include two transmission line segments (near and far). These line segments are ideal for SDRAM interfaces. You can use the near transmission line to represent the PCB and the far transmission line to represent the DIMM.
+The board trace model should only include PCB or off chip information. Do not include the Stratix IV IO pin and package capacitance, OCT, or drive strength settings, as the Quartus II software ascertains these dynamically. 
+ODT at the memory should be included as external discreet termination and the capacitive loading of the memory should be calculated for each net and also added.
+
+Note that ideally the distributed capacitance and inductance of your PCB traces should be ascertained from your PCB development tool. However, in general a 50-ohm trace is approximately 3 pF and 8nH per inch.
+Trace delay information can be entered on a per net basis if desired, but in general a net group basis should be sufficient. Multiple nets can be selected at the same time and then have their respective board trace models all entered simultaneously. Altera suggests the following net groups:
+    * mem_clk
+    * mem_addr (mem_a and mem_ba)
+    * mem_ctrl (mem_cas#, mem_cke, mem_cs_n, mem_odt, mem_ras_n, mem_we_n)
+* mem_dq_group (group 0: mem_dq[7..0], mem_dm[0]; group1: mem_dq[15..8], mem_dm[1], ...)
+* mem_dqs_group (group0: mem_dqs[0]; group1: mem_dqs[1], ...)
+Note that the DQS pin can be combined with the respective DQ group as a single-ended signal.
+    DIMM board trace models and SDRAM component capacitive loading information should be obtained from your memory vendor directly and must be included into your Quartus II board trace model parameters.
+</description>
+<more_info_link>
+NA
+</more_info_link>
+<effect_list>
+	<fmax_effect>
+	NA
+	</fmax_effect>
+	<resource_effect>
+	NA
+	</resource_effect>
+	<compilation_effect>
+	NA
+	</compilation_effect>
+</effect_list>
+<action>
+	<action_description>
+To enter board trace information, follow these steps:
+1) Launch Pin Planner, select the pin or group of pins that you want to enter the information for
+2) Right-click and select Board Trace Model
+3) Enter all the values for all the parameters shown in the figure above
+	</action_description>
+	<action_link>
+	PINPLANNER
+	</action_link>
+	<acf_variable_list>
+		<acf_variable name="NA">
+		</acf_variable>
+	</acf_variable_list>
+</action>
+<device_family_list>
+	<device_family exclude="">
+	ALL
+	</device_family>
+</device_family_list>
+<conditions>
+</conditions>
+<image_path>ddrboardtracemodel.bmp
+</image_path>
+<parent_list>
+	<parent priority="20">
+	IO_TIMING
+	</parent>
+</parent_list>
+<logic_algorithm>
+ALWAYS
+</logic_algorithm>
+<tcl_script button_name="" quartus_exe="">
+
+</tcl_script>
+</optimization_record>
+<!-- TPD-->
+<!-- DDR_INST\IO_TIMING\30 -->
+<optimization_record>
+<recommendation_key>
+TPD
+</recommendation_key>
+<recommendation>
+Additional Propagation Delay
+</recommendation>
+<recommendation_description>
+To ensure that IO timing performance is correctly modeled in Quartus II, it is necessary to add any additional propagation delay for the memory interface.
+</recommendation_description>
+<description>
+ALTMEMPHY-based designs assume that the memory address and command signals are matched in length to the memory clock signals. Typically, this length match is not true for DIMM-based designs. You should verify the difference in your design. 
+This board trace mismatch value must be entered as t(additional_addresscmd_tpd) in ddr_phy_report_timing.sdc file.
+If the address and command signal traces are longer than clock traces, then enter the difference value as a positive number in the SDC file and if shorter as a negative number.
+
+If the trace length difference of DQS and DQ within the same group is more than the board skew entered in MegaWizard, you should enter the max and min of the variation lengths in ddr_phy_report_timing.sdc file.
+The values must be entered as t(min_additional_dqs_variation) and t(max_additional_dqs_variation).
+Figure below shows the place holder for the additional delays in the SDC file.
+</description>
+<more_info_link>
+NA
+</more_info_link>
+<effect_list>
+	<fmax_effect>
+	NA
+	</fmax_effect>
+	<resource_effect>
+	NA
+	</resource_effect>
+	<compilation_effect>
+	NA
+	</compilation_effect>
+</effect_list>
+<action>
+	<action_description>
+1) Open ddr_phy_ddr_timing.sdc
+2) Search and modify the parameter or parameters of interest
+3) Save the SDC
+Note that every time your controller gets regenerated the additional manual changes to the SDC will be erased hence you must reenter the delays.
+	</action_description>
+	<action_link>
+	NA
+	</action_link>
+	<acf_variable_list>
+		<acf_variable name="NA">
+		</acf_variable>
+	</acf_variable_list>
+</action>
+<device_family_list>
+	<device_family exclude="">
+	ALL
+	</device_family>
+</device_family_list>
+<conditions>
+</conditions>
+<image_path>ddrtpd.bmp
+</image_path>
+<parent_list>
+	<parent priority="30">
+	IO_TIMING
+	</parent>
+</parent_list>
+<logic_algorithm>
+ALWAYS
+</logic_algorithm>
+<tcl_script button_name="" quartus_exe="">
+
+</tcl_script>
+</optimization_record>
+
+
+<!-- RTL_SIM -->
+<!-- DDR_INST\40 -->
+<!-- TBD ppt pg12: When simulation is completed, it should have a check.  can have a check mark only if launch simulation via tcl script -->
+<optimization_record>
+<recommendation_key>
+RTL_SIM
+</recommendation_key>
+<recommendation>
+Perform RTL/Functional Simulation (Optional)
+</recommendation>
+<recommendation_description>
+During the instantiation of the DDR SDRAM High Performance Controller, there is an option to generate a simulation model of the IP so you can perform functional simulation on your design.
+</recommendation_description>
+<description>
+</description>
+<more_info_link>
+NA
+</more_info_link>
+<effect_list>
+	<fmax_effect>
+	NA
+	</fmax_effect>
+	<resource_effect>
+	NA
+	</resource_effect>
+	<compilation_effect>
+	NA
+	</compilation_effect>
+</effect_list>
+<action>
+	<action_description>
+	</action_description>
+	<action_link>
+	</action_link>
+	<acf_variable_list>
+		<acf_variable name="NA">
+		
+		</acf_variable>
+	</acf_variable_list>
+</action>
+<device_family_list>
+	<device_family exclude="">
+	ALL
+	</device_family>
+</device_family_list>
+<conditions>
+</conditions>
+<image_path>
+</image_path>
+<parent_list>
+	<parent priority="50">
+	DDR_INST
+	</parent>
+</parent_list>
+<logic_algorithm>
+ALWAYS
+</logic_algorithm>
+<tcl_script button_name="" quartus_exe="">
+
+</tcl_script>
+</optimization_record>
+
+
+<!-- SETUP_SIM -->
+<!-- DDR_INST\RTL_SIM\10 -->
+<optimization_record>
+<recommendation_key>
+SETUP_SIM
+</recommendation_key>
+<recommendation>
+Setup Simulation Files
+</recommendation>
+<recommendation_description>
+Setup Simulation Files
+</recommendation_description>
+<description>
+If you have selected to generate a simulation model during the instantiation of the DDR SDRAM High Performance Controller, you will find a folder called testbench in your project directory which includes the testbench file for your design and a generic memory model.
+You have the option to use the generic or the vendor's memory model for simulation. To use the vendor memory model, you should obtain the memory model files from the vendor and save them in the testbench directory.
+After instantiating the SDRAM high-performance controller, an example design and a driver are generated for testing the memory interface. If you are using the vendor memory model, you must modify the memory instantiation in the testbench accordingly.
+</description>
+<more_info_link>
+NA
+</more_info_link>
+<effect_list>
+	<fmax_effect>
+	NA
+	</fmax_effect>
+	<resource_effect>
+	NA
+	</resource_effect>
+	<compilation_effect>
+	NA
+	</compilation_effect>
+</effect_list>
+<action>
+	<action_description>
+If you are using the generic memory model provided by Altera, you do not need to take any action here, go to the next step to set up simulation settings in Quartus II.
+If you are using the vendor memory models, you should follow the following instructions:
+1) Obtain and copy the vendor memory model to a suitable location. For example, obtain the ddr.v and ddr_parameters.vhd memory model files from Micron website and save them in the testbench directory.
+2) Open the memory model file in a text editor and add the two define statements to prepare the DDR SDRAM memory interface model.
+   The first statement specifies the memory device speed grade. The second statement specifies the memory device width per DQS.
+   For example, define statements below are for memory device with -25 as speed grade and x8 DQS/DQ group.
+    'define sg25
+    'define x8
+3) Open the testbench in a text editor, instantiate the downloaded memory model, and connect its signals to the rest of the design.
+4) You must delete the START and END MEGAWIZARD comments to ensure the MegaWizard Plug-In Manager does not overwrite the changes when the controller megafunction is regenerated.
+5) Go to the next step to set up simulation settings and run RTL simulation in Quartus II.
+	</action_description>
+	<action_link>
+	</action_link>
+	<acf_variable_list>
+		<acf_variable name="NA">
+		
+		</acf_variable>
+	</acf_variable_list>
+</action>
+<device_family_list>
+	<device_family exclude="">
+	ALL
+	</device_family>
+</device_family_list>
+<conditions>
+</conditions>
+<image_path>
+</image_path>
+<parent_list>
+	<parent priority="10">
+	RTL_SIM
+	</parent>
+</parent_list>
+<logic_algorithm>
+ALWAYS
+</logic_algorithm>
+<tcl_script button_name="" quartus_exe="">
+
+</tcl_script>
+</optimization_record>
+
+
+<!-- RUN_SIM -->
+<!-- DDR_INST\RTL_SIM\20 -->
+<optimization_record>
+<recommendation_key>
+RUN_SIM
+</recommendation_key>
+<recommendation>
+Setup Simulation Options and Run Simulation with Nativelink
+</recommendation>
+<recommendation_description>
+Setup simulation and run functional simulation with Nativelink
+</recommendation_description>
+<description>
+For Nativelink simulation, set the third party simulator tool path and setup the simulation settings as instructed below.
+If you are not running Nativelink simulation, make sure that you are adding the proper libraries to your DO file.
+For example waveforms, refer to the DDR SDRAM High Performance Controller User Guide.</description>
+<more_info_link>
+NA
+</more_info_link>
+<effect_list>
+	<fmax_effect>
+	NA
+	</fmax_effect>
+	<resource_effect>
+	NA
+	</resource_effect>
+	<compilation_effect>
+	NA
+	</compilation_effect>
+</effect_list>
+<action>
+	<action_description>
+To setup and run the simulation with NativeLink, follow these steps:
+1) Click the link below to open the Assignments menu, in the left panel under EDA Tool Settings, click Simulation.
+------- Setup -------
+2) Under Tool Name, select a simulator like Modelsim-Altera.
+   * Make sure that you have set the proper path to the selected simulator tool.
+     To set a path, you should exit the Assignment window and
+     a) In Tools drop down menu, click Options.
+     b) Under General, click EDA Tool Options.
+     c) Double click on the Location of excutable of the tool you would like to set the path for. 
+3) Go back to the EDA Tool Settings window, Simulation page and in NativeLink settings, select Compile test bench and click Test Benches.
+4) Click New.
+5) Enter a name for the Test bench name.
+6) Enter the name of the automatically generated testbench, ddr_example_top_tb, in Top level module in test bench.
+7) Enter the name of the top-level instance in Design instance in test bench.
+8) Under Simulation period, either enter a specific time to set the length of the simulation or select Run until all vector stimuli is used.
+9) Add the testbench files and memory model files. 
+10) In the New Testbench Settings dialog box, click OK.
+11) Click OK.
+------- Run -------
+12) On the Processing menu point to Start -> click Start Analysis and Elaboration.
+13) Once Analysis and Elaboration is successfully finished, on the Tools menu, point to EDA Simulation Tool -> click Run EDA RTL Simulation. 
+    This step creates the \simulation directory in your project directory and a script that compiles all necessary files and runs the simulation.
+	</action_description>
+	<action_link>
+	SETD
+	</action_link>
+	<acf_variable_list>
+		<acf_variable name="NA">
+		
+		</acf_variable>
+	</acf_variable_list>
+</action>
+<device_family_list>
+	<device_family exclude="">
+	ALL
+	</device_family>
+</device_family_list>
+<conditions>
+</conditions>
+<image_path>
+</image_path>
+<parent_list>
+	<parent priority="20">
+	RTL_SIM
+	</parent>
+</parent_list>
+<logic_algorithm>
+ALWAYS
+</logic_algorithm>
+<tcl_script button_name="" quartus_exe="">
+
+</tcl_script>
+</optimization_record>
+
+
+
+
+<!-- TBD ppt pg14: Once all Action are completed, it should have a check to indicate the actions were performed.  can only have a check mark if done via tcl -->
+<!-- ADD -->
+<!-- DDR_INST\20 -->
+<optimization_record>
+<recommendation_key>
+ADD
+</recommendation_key>
+<recommendation>
+Add Constraints
+</recommendation>
+<recommendation_description>
+The following recommendations guide you in adding the correct constraints.
+</recommendation_description>
+<description>
+Add Constraints
+</description>
+<more_info_link>
+NA
+</more_info_link>
+<effect_list>
+	<fmax_effect>
+	NA
+	</fmax_effect>
+	<resource_effect>
+	NA
+	</resource_effect>
+	<compilation_effect>
+	NA
+	</compilation_effect>
+</effect_list>
+<action>
+	<action_description>
+	NA
+	</action_description>
+	<action_link>
+	NA
+	</action_link>
+	<acf_variable_list>
+		<acf_variable name="NA">
+		
+		</acf_variable>
+	</acf_variable_list>
+</action>
+<device_family_list>
+	<device_family exclude="">
+	ALL
+	</device_family>
+</device_family_list>
+<conditions>
+</conditions>
+<image_path>
+
+</image_path>
+<parent_list>
+	<parent priority="20">
+	DDR_INST
+	</parent>
+</parent_list>
+<logic_algorithm>
+ALWAYS
+</logic_algorithm>
+<tcl_script button_name="" quartus_exe="">
+
+</tcl_script>
+</optimization_record>
+
+<!-- ADD_TIMING -->
+<!-- DDR_INST\ADD\10 -->
+<!-- TBD ppt pg13: Once both Actions are completed, it should have a check. can only have a check mark if done via tcl -->
+<optimization_record>
+<recommendation_key>
+ADD_TIMING
+</recommendation_key>
+<recommendation>
+Add Timing Constraints
+</recommendation>
+<recommendation_description>
+Select TimeQuest Timing Analyzer and add the timing constraint file to the project.
+</recommendation_description>
+<description>
+
+</description>
+<more_info_link>
+NA
+</more_info_link>
+<effect_list>
+	<fmax_effect>
+	NA
+	</fmax_effect>
+	<resource_effect>
+	NA
+	</resource_effect>
+	<compilation_effect>
+	NA
+	</compilation_effect>
+</effect_list>
+<action>
+	<action_description>
+	Follow these recommendations to select the timing analyzer and add timing constraints.
+	</action_description>
+	<action_link>
+	</action_link>
+	<acf_variable_list>
+		<acf_variable name="NA">
+		</acf_variable>
+	</acf_variable_list>
+</action>
+<device_family_list>
+	<device_family exclude="">
+	ALL
+	</device_family>
+</device_family_list>
+<conditions>
+</conditions>
+<image_path>
+
+</image_path>
+<parent_list>
+	<parent priority="10">
+	ADD
+	</parent>
+</parent_list>
+<logic_algorithm>
+ALWAYS
+</logic_algorithm>
+<tcl_script button_name="" quartus_exe="">
+
+</tcl_script>
+</optimization_record>
+
+
+<!-- TIMING_ANALYZER_OPTION -->
+<!-- DDR_INST\ADD\ADD_TIMING\10 -->
+<optimization_record>
+<recommendation_key>
+TIMING_ANALYZER_OPTION
+</recommendation_key>
+<recommendation>
+Select Timing Analyzer Option
+</recommendation>
+<recommendation_description>
+Select the timing analyzer option
+</recommendation_description>
+<description>
+Select TimeQuest as the timing analyzer.
+</description>
+<more_info_link>
+NA
+</more_info_link>
+<effect_list>
+	<fmax_effect>
+	NA
+	</fmax_effect>
+	<resource_effect>
+	NA
+	</resource_effect>
+	<compilation_effect>
+	NA
+	</compilation_effect>
+</effect_list>
+<action>
+	<action_description>
+	Open the Settings dialog box and verify that TimeQuest is selected as the timing analyzer.
+	</action_description>
+	<action_link>
+	SETD_TIMING
+	</action_link>
+	<acf_variable_list>
+		<acf_variable name="NA">
+		</acf_variable>
+	</acf_variable_list>
+</action>
+<device_family_list>
+	<device_family exclude="">
+	ALL
+	</device_family>
+</device_family_list>
+<conditions>
+</conditions>
+<image_path>
+
+</image_path>
+<parent_list>
+	<parent priority="10">
+	ADD_TIMING
+	</parent>
+</parent_list>
+<logic_algorithm>
+ALWAYS
+</logic_algorithm>
+<tcl_script button_name="" quartus_exe="">
+
+</tcl_script>
+</optimization_record>
+
+<!-- CONSTRAINT_SCRIPT -->
+<!-- DDR_INST\ADD\ADD_TIMING\20 -->
+<optimization_record>
+<recommendation_key>
+CONSTRAINT_SCRIPT
+</recommendation_key>
+<recommendation>
+Add Timing Constraints Script
+</recommendation>
+<recommendation_description>
+Add the timing constraint file to the project.
+</recommendation_description>
+<description>
+Instantiating the DDR SDRAM High Performance Controller generates constraint files for the design. The timing constraint file, ddr_phy_ddr_timing.sdc, constrains the clock and input/output delay on the DDR SDRAM High Performance Controller.
+</description>
+<more_info_link>
+NA
+</more_info_link>
+<effect_list>
+	<fmax_effect>
+	NA
+	</fmax_effect>
+	<resource_effect>
+	NA
+	</resource_effect>
+	<compilation_effect>
+	NA
+	</compilation_effect>
+</effect_list>
+<action>
+	<action_description>
+	To add the timing constraints, go to the Assignments menu and click the Settings option. In the Settings dialog box, under Timing Analysis Settings, select TimeQuest Timing Analyzer. Select the SDC file and click Add.
+	</action_description>
+	<action_link>
+	SETD_TIMING
+	</action_link>
+	<acf_variable_list>
+		<acf_variable name="SDC_FILE">
+		ddr_phy_ddr_timing.sdc
+		</acf_variable>
+	</acf_variable_list>
+</action>
+<device_family_list>
+	<device_family exclude="">
+	ALL
+	</device_family>
+</device_family_list>
+<conditions>
+</conditions>
+<image_path>
+
+</image_path>
+<parent_list>
+	<parent priority="20">
+	ADD_TIMING
+	</parent>
+</parent_list>
+<logic_algorithm>
+ALWAYS
+</logic_algorithm>
+<tcl_script button_name="" quartus_exe="">
+
+</tcl_script>
+</optimization_record>
+
+
+
+<!-- ADD_PIN -->
+<!-- DDR_INST\ADD\20 -->
+<optimization_record>
+<recommendation_key>
+ADD_PIN_DQ
+</recommendation_key>
+<recommendation>
+Add Pin and DQ Group Assignments
+</recommendation>
+<recommendation_description>
+Run the Tcl script to add pin assignments and DQ group assignments.
+</recommendation_description>
+<description>
+The pin assignment script, ddr_pin_assignments.tcl, sets up the I/O standards for the DDR SDRAM memory interface.  It also launches the DQ group assignment script, ddr_phy_assign_dq_groups.tcl, which relates the DQ and DQS pin groups together for the Fitter to place them correctly in the Quartus II software. 
+
+Please note that this script does not create a clock for the design. You need to create a clock for the design and provide pin assignments for the signals of both the example driver and testbench that were generated with the MegaCore variation.
+</description>
+<more_info_link>
+NA
+</more_info_link>
+<effect_list>
+	<fmax_effect>
+	NA
+	</fmax_effect>
+	<resource_effect>
+	NA
+	</resource_effect>
+	<compilation_effect>
+	NA
+	</compilation_effect>
+</effect_list>
+<action>
+	<action_description>
+	Run the ddr_pin_assignments.tcl to add the pin, I/O standards, and DQ group assignments to the example design.  &lt;p&gt;You can either click on the button below to let the IP Advisor run the script, or open the Tcl Scripts dialog box to run the script manually.
+	</action_description>
+	<action_link>
+	TCL_SCRIPTS
+	</action_link>
+	<acf_variable_list>
+		<acf_variable name="NA">
+		
+		</acf_variable>
+	</acf_variable_list>
+</action>
+<device_family_list>
+	<device_family exclude="">
+	ALL
+	</device_family>
+</device_family_list>
+<conditions>
+</conditions>
+<image_path>
+
+</image_path>
+<parent_list>
+	<parent priority="20">
+	ADD
+	</parent>
+</parent_list>
+<logic_algorithm>
+ALWAYS
+</logic_algorithm>
+<tcl_script button_name="Add Pin Assignments" quartus_exe="quartus_sh">
+ddr_pin_assignments.tcl;
+</tcl_script>
+</optimization_record>
+
+
+<!-- ADD_TOP -->
+<!-- DDR_INST\ADD\40 -->
+<optimization_record>
+<recommendation_key>
+ADD_TOP
+</recommendation_key>
+<recommendation>
+Set top-level entity
+</recommendation>
+<recommendation_description>
+Set the top-level entity to be the example_top design file.
+The example top-level design, which instantiates the SDRAM high performance controller and an example driver, is ddr_example_top.v or vhd.
+</recommendation_description>
+<description>
+Before compiling the design, set the top level entity of the project to the desired entity.
+     - The ALTMEMPHY megafunction entity is called ddr_phy.v.
+     - The DDR Controller MegaCore entity is called ddr.v.
+     - The example top-level design, which instantiates the DDR Controller and an example driver, is called ddr_example_top.v.
+</description>
+<more_info_link>
+NA
+</more_info_link>
+<effect_list>
+	<fmax_effect>
+	NA
+	</fmax_effect>
+	<resource_effect>
+	NA
+	</resource_effect>
+	<compilation_effect>
+	NA
+	</compilation_effect>
+</effect_list>
+<action>
+	<action_description>
+Set the top-level file. You can do this in several ways
+  a1) Click on Assignments drop dowm menu and select Settings
+  a2) On Settings window, click on General in the Category panel and set your top level design
+  Or
+  b1) Open the file
+  b2) In Project drop down menu, select Set as Top-Level Entity
+ 
+For the example design, you can click Correct the Settings below.
+	</action_description>
+	<action_link>
+	SETD
+	</action_link>
+	<acf_variable_list>
+		<acf_variable name="TOP_LEVEL_ENTITY">
+		ddr_example_top
+		</acf_variable>
+	</acf_variable_list>
+</action>
+<device_family_list>
+	<device_family exclude="">
+	ALL
+	</device_family>
+</device_family_list>
+<conditions>
+</conditions>
+<image_path>
+
+</image_path>
+<parent_list>
+	<parent priority="40">
+	ADD
+	</parent>
+</parent_list>
+<logic_algorithm>
+SETTING
+</logic_algorithm>
+<tcl_script button_name="" quartus_exe="">
+
+</tcl_script>
+</optimization_record>
+
+<!-- ADD_OPT -->
+<!-- DDR_INST\ADD\50 -->
+<optimization_record>
+<recommendation_key>
+ADD_OPT
+</recommendation_key>
+<recommendation>
+Set Optimization Technique
+</recommendation>
+<recommendation_description>
+Set Analysis and Synthesis to optimize for speed
+</recommendation_description>
+<description>
+Set up the Quartus II software to ensure the remaining unconstrained paths are routed with the highest speed and efficiency by setting the Optimization technique to Speed.
+</description>
+<more_info_link>
+NA
+</more_info_link>
+<effect_list>
+	<fmax_effect>
+	NA
+	</fmax_effect>
+	<resource_effect>
+	NA
+	</resource_effect>
+	<compilation_effect>
+	NA
+	</compilation_effect>
+</effect_list>
+<action>
+	<action_description>
+	Set the Optimization Technique to the Speed setting. To do this, in Assignments drop down menu select Settings. In category panel, click Analysis and Synthesis Settings to turn on Speed in the Optimization Technique box.
+	</action_description>
+	<action_link>
+	SETD_ANALYSIS_SYNTHESIS
+	</action_link>
+	<acf_variable_list>
+		<acf_variable name="NA">
+		</acf_variable>
+	</acf_variable_list>
+</action>
+<device_family_list>
+	<device_family exclude="">
+	ALL
+	</device_family>
+</device_family_list>
+<conditions>
+</conditions>
+<image_path>
+
+</image_path>
+<parent_list>
+	<parent priority="50">
+	ADD
+	</parent>
+</parent_list>
+<logic_algorithm>
+SETTING
+</logic_algorithm>
+<tcl_script button_name="" quartus_exe="">
+
+</tcl_script>
+</optimization_record>
+
+<!-- ADD_FIT_EFF -->
+<!-- DDR_INST\ADD\60 -->
+<optimization_record>
+<recommendation_key>
+ADD_FIT_EFF
+</recommendation_key>
+<recommendation>
+Set Fitter Effort and Timing Driven Compilation
+</recommendation>
+<recommendation_description>
+Set Fitter effort to Auto Fit.
+Set Fitter to optimize hold timing on all paths.
+</recommendation_description>
+<description>
+Set Fitter effort to "Auto Fit".
+</description>
+<more_info_link>
+NA
+</more_info_link>
+<effect_list>
+	<fmax_effect>
+	N
+	</fmax_effect>
+	<resource_effect>
+	NA
+	</resource_effect>
+	<compilation_effect>
+	NA
+	</compilation_effect>
+</effect_list>
+<action>
+	<action_description>
+In Assignments drop down menu select Settings. In Category panel, click Fitter Settings to 
+1) Set Optimize Hold Timing for All Paths, in the Timing-driven compalition box.
+2) Turn on Auto Fit, in the Fitter effort box.
+	</action_description>
+	<action_link>
+	SETD_FITTER
+	</action_link>
+	<acf_variable_list>
+		<acf_variable name="FITTER_EFFORT">
+		AUTO FIT
+		</acf_variable>
+		<acf_variable name="OPTIMIZE_HOLD_TIMING">
+		ALL PATHS
+		</acf_variable>
+	</acf_variable_list>
+</action>
+<device_family_list>
+	<device_family exclude="">
+	ALL
+	</device_family>
+</device_family_list>
+<conditions>
+</conditions>
+<image_path>
+
+</image_path>
+<parent_list>
+	<parent priority="60">
+	ADD
+	</parent>
+</parent_list>
+<logic_algorithm>
+SETTING
+</logic_algorithm>
+<tcl_script button_name="" quartus_exe="">
+
+</tcl_script>
+</optimization_record>
+
+
+
+<!-- CMP -->
+<!-- DDR_INST\70 -->
+<optimization_record>
+<recommendation_key>
+CMP
+</recommendation_key>
+<recommendation>
+Compile Design
+</recommendation>
+<recommendation_description>
+Compile your design
+</recommendation_description>
+<description>
+After generating the DDR controller and constraining the design, compile the design in the Quartus II software.
+</description>
+<more_info_link>
+NA
+</more_info_link>
+<effect_list>
+	<fmax_effect>
+	NA
+	</fmax_effect>
+	<resource_effect>
+	NA
+	</resource_effect>
+	<compilation_effect>
+	NA
+	</compilation_effect>
+</effect_list>
+<action>
+	<action_description>
+	Click below to compile the design or in the Processing drop down menu, click Start Complation, once the compilation is successful, refer to Verify Timing Closure to review timing margins.
+	</action_description>
+	<action_link>
+	NA
+	</action_link>
+	<acf_variable_list>
+		<acf_variable name="NA">
+		
+		</acf_variable>
+	</acf_variable_list>
+</action>
+<device_family_list>
+	<device_family exclude="">
+	ALL
+	</device_family>
+</device_family_list>
+<conditions>
+</conditions>
+<image_path>
+
+</image_path>
+<parent_list>
+	<parent priority="70">
+	DDR_INST
+	</parent>
+</parent_list>
+<logic_algorithm>
+ALWAYS
+</logic_algorithm>
+<tcl_script button_name="Start Compilation" quartus_exe="quartus_sh">
+dummy.tcl
+</tcl_script>
+</optimization_record>
+
+<!-- VERIFY -->
+<!-- DDR_INST\80 -->
+<!-- TODO TBD ppt pg15: ddr2_phy_report_timing.tcl should start TimeQuest and run the Report DDR task. -->
+<optimization_record>
+<recommendation_key>
+VERIFY
+</recommendation_key>
+<recommendation>
+Verify Timing Closure
+</recommendation>
+<recommendation_description>
+Verify timing closure
+</recommendation_description>
+<description>
+After successfully compiling the design in the Quartus II software, run the timing script to produce the timing report for different paths in the design.
+During the generation of the ALTMEMPHY megafunction or the SDRAM high-performance controller, the MegaWizard Plug-In Manager generates a verify timing script called ddr_phy_report_timing.tcl which reports margin on:
+
+-> Address/command setup and hold margin
+-> Half rate address/command setup and hold margin
+-> Core setup and hold margin
+-> Core reset/removal setup and hold margin
+-> Write setup and hold margin
+-> Read capture setup and hold margin
+Refer to AN438: Constraining and Analyzing Timing for External Memory Interfaces for detailed information on timing analysis and reporting.
+</description>
+<more_info_link>
+http://www.altera.com/literature/an/an438.pdf
+</more_info_link>
+<effect_list>
+	<fmax_effect>
+	NA
+	</fmax_effect>
+	<resource_effect>
+	NA
+	</resource_effect>
+	<compilation_effect>
+	NA
+	</compilation_effect>
+</effect_list>
+<action>
+	<action_description>
+	Run the timing script, ddr_phy_report_timing.tcl. You can generate the report from the IP Advisor:
+-> In the Tcl Scripts dialog box
+   1) Launch Tcl Scripts below
+   2) Click on ddr_phy_report_timing.tcl
+   3) Click Run
+   4) Once the Tcl file is run, close and reopen the compilation report
+   5) TimeQuest Timing Analyzer GUI folder is added at the end of the report
+-> Or in the TimeQuest Timing Analyzer
+   1) Launch TimeQuest Timing Analyzer below
+   2) Double click Create Timing Netlist in the left panel
+   3) Double click Report DDR in the left Panel, you can click on any Report to get the detailed specific timing report
+   * After a task is executed, it turns green.
+
+Review the timing report, violations are shown in red font. If the timing report shows any timing violation move the next step Adjust Constraints.
+
+	</action_description>
+	<action_link>
+	TCL_SCRIPTS
+	</action_link>
+	<action_link>
+	TIMEQUEST
+	</action_link>
+	<!-- <action_link>
+	TRPT
+	</action_link> -->
+	<acf_variable_list>
+		<acf_variable name="NA">
+		
+		</acf_variable>
+	</acf_variable_list>
+</action>
+<device_family_list>
+	<device_family exclude="">
+	ALL
+	</device_family>
+</device_family_list>
+<conditions>
+</conditions>
+<image_path>
+
+</image_path>
+<parent_list>
+	<parent priority="80">
+	DDR_INST
+	</parent>
+</parent_list>
+<logic_algorithm>
+ALWAYS
+</logic_algorithm>
+<tcl_script button_name="" quartus_exe="">
+</tcl_script>
+</optimization_record>
+
+<!-- ADJUST -->
+<!-- DDR_INST\90 -->
+<!-- TBD ppt pg16: In the Action row, import all the setup and hold timing margins from TimeQuest Timing Analyzer after performing the Report DDR task.  need a tcl script to do that -->
+<optimization_record>
+<recommendation_key>
+ADJUST
+</recommendation_key>
+<recommendation>
+Adjust Constraints
+</recommendation>
+<recommendation_description>
+Adjust Constraints
+</recommendation_description>
+<description>
+The timing margin report shows setup and hold margin for the address/command, read and write datapath.
+
+If the reported Setup or Hold is negative, quite small or unbalanced on a certain datapath, adjusting the clock that is feeding the output registers of that datapath can be used to improve the margin.
+
+To find which clock is clocking the datapath showing the timing violations:
+1) Open the Compilation Report and expand the Fitter folder.
+2) Expand Resource Section folder unsder Fitter
+3) Click on PLL Usage.
+4) In PLL Usage page, scroll to the right to view PLL Output Clocks, their frequencies, and phase shifts.
+
+For Example, if the timing report indicates that the address/command path has negative hold slack, to correct the timing, you need to increase the hold margin.
+In order to increase the hold margin and balance the setup and hold margins, you should find which clock is feeding the address/command output registers. 
+Refer to the PLL Usage report in the Compilation report which indicates clk6 is the address/command clock.
+You should calculate how much you need to change the clock and in which direction in order to correct the timing. 
+Then you should apply the difference in degrees to the appropriate clock phase shift in ddr_phy_alt_mem_phy_pll MegaWizard.  
+</description>
+<more_info_link>
+NA
+</more_info_link>
+<effect_list>
+	<fmax_effect>
+	NA
+	</fmax_effect>
+	<resource_effect>
+	NA
+	</resource_effect>
+	<compilation_effect>
+	NA
+	</compilation_effect>
+</effect_list>
+<action>
+	<action_description>
+If you observe timing violation in the timing report:
+1) Find out which clock is clocking the output registers of the datapath showing the violations.
+2) Calculate the needed margin in degrees.
+3) Open ddr_phy_alt_mem_phy_pll MegaWizard.
+4) Add (if you have to delay the clock) or subtract (if you need to pull in the clock) the margin in degree to the corresponding clock output phase shift in ALTPLL.
+	</action_description>
+	<action_link>
+	MEGAWIZ
+	</action_link>
+	<acf_variable_list>
+		<acf_variable name="NA">
+		
+		</acf_variable>
+	</acf_variable_list>
+</action>
+<device_family_list>
+	<device_family exclude="">
+	ALL
+	</device_family>
+</device_family_list>
+<conditions>
+</conditions>
+<image_path>
+ddraltpll.bmp
+</image_path>
+<parent_list>
+	<parent priority="90">
+	DDR_INST
+	</parent>
+</parent_list>
+<logic_algorithm>
+ALWAYS
+</logic_algorithm>
+<tcl_script button_name="" quartus_exe="">
+
+</tcl_script>
+</optimization_record>
+
+<!-- BOARD -->
+<!-- DDR_INST\100 -->
+<optimization_record>
+<recommendation_key>
+BOARD
+</recommendation_key>
+<recommendation>
+Determine Board Design Constraints/Perform Board-Level Simulations
+</recommendation>
+<recommendation_description>
+Review the following recommendations about board design constraints
+</recommendation_description>
+<description>
+Determine Board Design Constraints
+</description>
+<more_info_link>
+NA
+</more_info_link>
+<effect_list>
+	<fmax_effect>
+	NA
+	</fmax_effect>
+	<resource_effect>
+	NA
+	</resource_effect>
+	<compilation_effect>
+	NA
+	</compilation_effect>
+</effect_list>
+<action>
+	<action_description>
+	NA
+	</action_description>
+	<action_link>
+	NA
+	</action_link>
+	<acf_variable_list>
+		<acf_variable name="NA">
+		
+		</acf_variable>
+	</acf_variable_list>
+</action>
+<device_family_list>
+	<device_family exclude="">
+	ALL
+	</device_family>
+</device_family_list>
+<conditions>
+</conditions>
+<image_path>
+
+</image_path>
+<parent_list>
+	<parent priority="100">
+	DDR_INST
+	</parent>
+</parent_list>
+<logic_algorithm>
+ALWAYS
+</logic_algorithm>
+<tcl_script button_name="" quartus_exe="">
+
+</tcl_script>
+</optimization_record>
+
+<!-- OCT -->
+<!-- DDR_INST\BOARD\10 -->
+<optimization_record>
+<recommendation_key>
+OCT
+</recommendation_key>
+<recommendation>
+FPGA-side Termination Considerations
+</recommendation>
+<recommendation_description>
+Choose between series and parallel on-chip termination (OCT) resistors to improve signal integrity.
+</recommendation_description>
+<description>
+The Stratix IV devices support both series and parallel on-chip termination (OCT) resistors to improve signal integrity. Another benefit of using the Stratix IV OCT features is eliminating the need for external termination resistors on the FPGA side, which simplifies board design and reduces overall board cost. You can dynamically switch between the series and parallel OCT resistor depending on whether the Stratix IV devices are performing a write or a read operation. The OCT features offer user-mode calibration to compensate for any variation in voltage and temperature during normal operation to ensure that the OCT values remain constant. The parallel and series OCT features on the Stratix IV devices are available in either 25 ohm or 50 ohm settings.&lt;p&gt;Refer to the Selectable I/O Standards in Stratix IV chapter of the FPGA Device Handbook for information on the OCT features.
+</description>
+<more_info_link>
+http://www.altera.com/literature/hb/stratix-iv/stx4_siv51006.pdf
+</more_info_link>
+<effect_list>
+	<fmax_effect>
+	N/A
+	</fmax_effect>
+	<resource_effect>
+	NA
+	</resource_effect>
+	<compilation_effect>
+	NA
+	</compilation_effect>
+</effect_list>
+<action>
+	<action_description>
+	Open Assignment Editor and review or modify the I/O termination settings if needed.
+	</action_description>
+	<action_link>
+	AE_LOGIC_OPTIONS
+	</action_link>
+	<acf_variable_list>
+		<acf_variable name="NA">
+		
+		</acf_variable>
+	</acf_variable_list>
+</action>
+<device_family_list>
+	<device_family exclude="">
+	ALL
+	</device_family>
+</device_family_list>
+<conditions>
+</conditions>
+<image_path>
+ddrOCT.bmp
+</image_path>
+<parent_list>
+	<parent priority="10">
+	BOARD
+	</parent>
+</parent_list>
+<logic_algorithm>
+ALWAYS
+</logic_algorithm>
+<tcl_script button_name="" quartus_exe="">
+
+</tcl_script>
+</optimization_record>
+
+
+<!-- OTHER -->
+<!-- DDR_INST\BOARD\30 -->
+<optimization_record>
+<recommendation_key>
+OTHER
+</recommendation_key>
+<recommendation>
+Run Board-Level Simulations
+</recommendation>
+<recommendation_description>
+Run board-level simulations
+</recommendation_description>
+<description>
+Altera recommends the following termination scheme for the DDR SDRAM Memory Interface:
+
+  FPGA side
+     * DQ/DQS:  Calibrated 50-ohm Dynamic OCT
+     * DM: Calibrated 50-ohm Series OCT
+     * Command/Address: Calibrated 50-ohm Series OCT
+     * Memory Clock: Calibrated 50-ohm Series OCT
+
+  DDR SDRAM side
+     * DQ/DQS/DM:  50-ohm Discreet Termination and Maximum output drive strength
+     * Address/Command/Clock:  50-ohm Discrete Parallel Termination to VTT
+
+Although the recommendations above are based on the simulations and experimental results, it is still critical that some form of simulation is performed, either using IBIS or HSPICE models, to determine the quality of signal integrity on your designs.
+
+</description>
+<more_info_link>
+</more_info_link>
+<effect_list>
+	<fmax_effect>
+	NA
+	</fmax_effect>
+	<resource_effect>
+	NA
+	</resource_effect>
+	<compilation_effect>
+	NA
+	</compilation_effect>
+</effect_list>
+<action>
+	<action_description>
+	Perform board-level simulations using the tools you have access to, for example Mentor Graphics HyperLynx.
+	</action_description>
+	<!-- TBD ppt pg20: [Stretch Request]  Create a Run HyperLynx button so that it will launch HyperLynx tool for user to run simulation.  need a tcl script to do that -->
+	<action_link>
+	NA
+	</action_link>
+	<acf_variable_list>
+		<acf_variable name="NA">
+		
+		</acf_variable>
+	</acf_variable_list>
+</action>
+<device_family_list>
+	<device_family exclude="">
+	ALL
+	</device_family>
+</device_family_list>
+<conditions>
+</conditions>
+<image_path>
+
+</image_path>
+<parent_list>
+	<parent priority="30">
+	BOARD
+	</parent>
+</parent_list>
+<logic_algorithm>
+ALWAYS
+</logic_algorithm>
+<tcl_script button_name="" quartus_exe="">
+
+</tcl_script>
+</optimization_record>
+
+
+
+
+</optimization_record_list>
+
